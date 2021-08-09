@@ -39,10 +39,7 @@ class WindMill(View):
                  'x_long' : x_long,
                  'y_lat' : y_lat,
                  }         
-            lat.append(x_lat)
-            lon.append(x_long)
             wdml_load = USWDML.objects.create(**wdml_data)
-
             message = {
                  "message": "New item(s) added to database"
             }
@@ -60,8 +57,6 @@ class Graph(TemplateView):
             latitude.append(x.y_lat)
             longitude.append(x.x_long)
         context = super(Graph, self).get_context_data(**kwargs)
-        print (latitude)
-        print (longitude)
         fig = go.Figure(go.Scattermapbox(
             lat=latitude,lon=longitude,
             mode='markers',
