@@ -1,0 +1,61 @@
+{
+	"type": "FeatureCollection",
+	"name": "uswtdb_v4_1_20210721",
+	"features": [{
+			"type": "Feature",
+			"properties": {
+				"case_id": 3073403.0,
+				"t_state": "CA",
+				"p_name": "251 Wind",
+				"p_year": 1987.0,
+				"p_tnum": 194.0,
+				"p_cap": 18.43,
+				"t_manu": "Vestas",
+				"t_model": null,
+				"t_cap": 95.0,
+				"t_hh": null,
+				"t_rd": null,
+				"t_rsa": null,
+				"t_ttlh": null,
+				"retrofit": 0.0,
+				"retrofit_y": null,
+				"t_conf_atr": 2.0,
+				"t_conf_loc": 3.0,
+				"xlong": -118.352219,
+				"ylat": 35.088993
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-118.352219, 35.088993]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"case_id": 3072704.0,
+				"t_state": "CA",
+				"p_name": "251 Wind",
+				"p_year": 1987.0,
+				"p_tnum": 194.0,
+				"p_cap": 18.43,
+				"t_manu": "Vestas",
+				"t_model": null,
+				"t_cap": 95.0,
+				"t_hh": null,
+				"t_rd": null,
+				"t_rsa": null,
+				"t_ttlh": null,
+				"retrofit": 0.0,
+				"retrofit_y": null,
+				"t_conf_atr": 2.0,
+				"t_conf_loc": 3.0,
+				"xlong": -118.364197,
+				"ylat": 35.077644
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [-118.364197, 35.077644]
+			}
+		}
+	]
+}

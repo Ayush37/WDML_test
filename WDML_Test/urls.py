@@ -20,4 +20,5 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('view_wdml.urls')),
+    path('wm/',include('USWTDB.urls')),
 ]
