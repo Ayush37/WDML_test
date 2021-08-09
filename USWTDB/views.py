@@ -63,11 +63,12 @@ class Graph(TemplateView):
             marker=go.scattermapbox.Marker(
                 size=9
             ),
-            text=["The coffee bar","Bistro Bohem"],
         ))
 
         fig.update_layout(
-            autosize=True,
+            autosize=False,
+            height = 1000,
+            width = 1000,
             hovermode='closest',
             mapbox=dict(
                 accesstoken=mapbox_access_token,
@@ -77,7 +78,7 @@ class Graph(TemplateView):
                     lon= -118.352219
                 ),
                 pitch=0,
-                zoom=10
+                zoom=7
         ),
     )
         div = opy.plot(fig, auto_open=False, output_type='div')
