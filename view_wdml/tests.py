@@ -20,4 +20,3 @@ class PostTestCase(TestCase):
         )
         expensive_posts = CartItem.objects.get(product_price=37)
         self.assertEquals(expensive_posts.product_name,'Test_product1')
-
