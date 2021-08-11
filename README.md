@@ -1,5 +1,5 @@
 # WDML_test
-A simple application to display USWDML dataset over a geoMap
+A simple application to display USWDML dataset over a geoMap using MapBox
 
 Sample screenshot
 
